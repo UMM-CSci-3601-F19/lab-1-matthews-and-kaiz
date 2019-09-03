@@ -9,5 +9,48 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #673875;
+    background-color: #06e6ef;
 }
+
+#main-title {
+  color: #ff1811;
+  font-family: 'URW Gothic';
+  text-align: right;
+  font-size: 4rem;
+  transform-origin: bottom center;
+}
+
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#faculty {
+  background-color: #f9f7f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#faculty>ul>li {
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+#faculty-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* This tell's the flex items to wrap if there
+                        isn't enough space for all of the items. Without this the
+                        faculty images will be in a row and only resize well unitl around
+                        550px width of screen. */
+  justify-content: center;
+  align-content: center;
+}
+
+
