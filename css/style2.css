@@ -10,7 +10,7 @@ use float to make something locate itself on the right or left
 body{
     padding: 30px;
     background-color: #06e6ef;
-  border: 10px solid;
+  border: 10px solid; /* added border to entire page*/
   border-color: #ea47c0;
 }
 
@@ -18,7 +18,7 @@ body{
   color: #ff1811;
   font-family: 'URW Gothic';
   text-align: right;
-  font-size: 4rem;
+  font-size: 4rem; /*aligned to the right*/
   transform-origin: bottom center;
 }
 
@@ -41,8 +41,8 @@ body{
 
 #faculty>ul>li {
   display: inline-block;
-  font-family: sans-serif;
-  padding: 50px;
+  font-family: sans-serif; /*Changed the alignment of the pictures*/
+  padding: 30px;
   background-color: #0806a6;
 }
 
@@ -61,10 +61,11 @@ body{
 .section {
   border-radius: 25px;
   padding: 20px;
-  border: 5px solid;
+  border: 5px outset;
+  border-color: #b200f9;
   margin: 10px;
   max-width: 60em;
-  color: #a903f9;
+  color: #b200f9;
 }
 
 #style ul {
@@ -80,8 +81,8 @@ body{
 }
 
 #style li a {
-  display: block;
-  color: white;
+  display: inline-block;
+  color: #06e6ef;
   text-align: center;
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
   text-decoration: none;
@@ -100,6 +101,14 @@ body{
   top: 0;
   height: 55px;
   padding-top: 10px;
+}
+
+#validation {
+  font-size: 80%;
+  background-color: #06e6ef;
+  padding: 25px;
+  border: 5px outset;
+  border-color: #a903f9;
 }
 
 
