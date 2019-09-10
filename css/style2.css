@@ -10,6 +10,8 @@ use float to make something locate itself on the right or left
 body{
     padding: 30px;
     background-color: #06e6ef;
+  border: 10px solid;
+  border-color: #ea47c0;
 }
 
 #main-title {
@@ -25,20 +27,23 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 #faculty {
-  background-color: #f9f7f6;
+  background-color: #009f27;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  padding: 15px
 }
 
 #faculty>ul>li {
   display: inline-block;
   font-family: sans-serif;
-  padding: 30px;
+  padding: 50px;
+  background-color: #0806a6;
 }
 
 #faculty-list {
@@ -52,5 +57,52 @@ body{
   justify-content: center;
   align-content: center;
 }
+
+.section {
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 10px;
+  max-width: 60em;
+  color: #a903f9;
+}
+
+#style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #009f27;
+}
+
+#style li {
+  float: left; /*explore what happens if this is 'right' instead*/
+}
+
+#style li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+  text-decoration: none;
+}
+
+/* Change the link background color to #000 (black) on hover */
+#style li a:hover {
+  background-color: #a903f9;
+}
+
+#style {
+  position: fixed;
+  background-color: #0806a6;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 55px;
+  padding-top: 10px;
+}
+
+
+
 
 
